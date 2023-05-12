@@ -26,7 +26,7 @@ show tables;
 
 
 
--- crear una tabla en la base de datos
+-- crear las tablas en la base de datos
 create table t_usuario(id_usuario int not null
                       ,nombre varchar(25) not null
                       ,apellido varchar(25) not null
@@ -38,8 +38,8 @@ create table t_usuario(id_usuario int not null
                       );
  
  create table t_rol(id_rol int not null
-					,descripcion_rol varchar(20)
-					,fecha_alta date not null 
+		    ,descripcion_rol varchar(20)
+		    ,fecha_alta date not null 
                     ,fecha_baja date null
                     );                     
  
